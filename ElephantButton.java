@@ -11,6 +11,11 @@ public class ElephantButton extends Actor
         } else if(Greenfoot.mouseMoved(getWorld())){
             image.setTransparency(255);
         }
+        
+        
+        if(Greenfoot.mouseClicked(this)){
+            Greenfoot.setWorld(new ElephantWorld());
+        }
 
     }
 }
