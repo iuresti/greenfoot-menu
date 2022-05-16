@@ -29,11 +29,11 @@ public class MyWorld extends World
         ElephantButton elephantButton = new ElephantButton();
         addObject(elephantButton,175,144);
         elephantButton.setLocation(223,120);
-        Bear bear = new Bear();
+        BearButton bear = new BearButton();
         addObject(bear,222,194);
-        Canguro canguro = new Canguro();
+        CanguroButton canguro = new CanguroButton();
         addObject(canguro,229,271);
-        Turtle turtle = new Turtle();
+        TurtleButton turtle = new TurtleButton();
         addObject(turtle,353,269);
         bear.setLocation(347,123);
         turtle.setLocation(349,269);
