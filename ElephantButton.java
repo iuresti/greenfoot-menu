@@ -1,16 +1,8 @@
 import greenfoot.*; 
 
-public class ElephantButton extends Actor
+public class ElephantButton extends Button
 {
-    public void act()
-    {
-        GreenfootImage image = getImage();
-        
-        if(Greenfoot.mouseMoved(this)){
-            image.setTransparency(150);
-        } else if(Greenfoot.mouseMoved(getWorld())){
-            image.setTransparency(255);
-        }
-
+    public  void clicked(){
+        Greenfoot.setWorld(new ElephantWorld());
     }
 }
